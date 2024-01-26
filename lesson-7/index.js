@@ -150,3 +150,12 @@ const users = [
 
 
 
+// let question= prompt("Nimadir?", "")
+// console.log(question);
+// if(question==0){
+//     alert("Siz ok tugmasini bosdingiz!")
+// }else if(question===null){
+//     alert("Siz cancel tugmasini bosdingiz!")
+// }
+
+
