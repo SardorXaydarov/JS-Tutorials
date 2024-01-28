@@ -125,17 +125,16 @@ const users = [
 // console.log(userCHeckPassword("Tomas", "123333"));
 
 
-// function createdAt(userName){
-//     const findCreatedAt=users.filter((user)=>{
-//         if (userName=== user.username){
-//             alert(user.createdAt)
-//         }
-//         return userName === user.username
-//     })
-//     console.log(findCreatedAt);
-// }
-// console.log(createdAt("Martha"));
-
+function createdAt(userName){
+    const findCreatedAt=users.filter((user)=>{
+        if (userName=== user.username){
+            alert(user.createdAt)
+        return userName === user.username
+        }
+    })
+    console.log(findCreatedAt);
+}
+console.log(createdAt("Alex"));
 
 
 // SPREAD operatori
