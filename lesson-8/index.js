@@ -21,19 +21,37 @@
 
 
 // Groupps vegetables and fruits
-let fruitsVegetables= [
-    {name:'potato', category:'vegetable'},
-    {name:'banana', category:'fruit'},
-    {name:'orange', category:'fruit'},
-    {name:'tomato', category:'vegetable'},
-]
+// let fruitsVegetables= [
+//     {name:'potato', category:'vegetable'},
+//     {name:'banana', category:'fruit'},
+//     {name:'orange', category:'fruit'},
+//     {name:'tomato', category:'vegetable'},
+// ]
 
-const groupedItems= fruitsVegetables.reduce((accumulator, item)=>{
-    const categoryy = item.category;
-    if(!accumulator[categoryy]){
-        accumulator[categoryy] = []
-    }
-    accumulator[categoryy].push(item.name)
-    return accumulator
-})
-console.log(groupedItems)
+// const groupedItems= fruitsVegetables.reduce((accumulator, item)=>{
+//     const categoryy = item.category;
+//     if(!accumulator[categoryy]){
+//         accumulator[categoryy] = []
+//     }
+//     accumulator[categoryy].push(item.name)
+//     return accumulator
+// })
+// console.log(groupedItems)
+
+
+
+// Find
+// let ages= [20,31,44,20,16,17]
+// console.log(ages.find((age)=> age<20));
+
+// every
+
+
+// let names=['Sardor', 'Anvar', 'Jalol', 'Fax']
+// let name = names.every((name)=> typeof name === 'string' )
+// console.log(name)
+
+// Some
+// let namesSome= ['Name1', 'Name2', 'Name3', 'Name4',]
+// console.log(namesSome.some((name)=> typeof name === 'number'))
+
