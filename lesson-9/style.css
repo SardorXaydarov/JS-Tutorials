@@ -1,0 +1,126 @@
+.minus,
+.plus {
+    cursor: pointer;
+    padding: 40px 60px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.number {
+    font-weight: bolder;
+    color: #0f0;
+    font-size: 2.6rem;
+    padding: 40px 60px;
+    font-family: 'sans-serif';
+    width: 70px;
+    text-align: center;
+    background-color: #ff0000;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,0.4);
+}
+
+.f-modal .modal-content {
+    display: flex;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+}
+
+.modal-content h1 {
+    color: mediumblue;
+    font-weight: bolder;
+}
+.modal-content .modal-footer{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-content p {
+    max-width: 650px;
+    font-size: 1.2rem;
+    color: teal;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 20px 39px;
+    border-radius: 6px;
+    background: aqua;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.close-btn:hover{
+    background: #ff0000;
+    color: #000;
+}
+.save-btn:hover{
+    background: #0f0;
+    color: #fff;
+}
+
+
+.s-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    gap: 10px;
+}
+.s-modal .modal-content{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+.s-modal .modal-content .modal-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
